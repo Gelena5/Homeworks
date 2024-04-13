@@ -1,0 +1,60 @@
+html {
+    background-image: url(./photos/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color:rgb(157, 1, 1);
+    font-weight: 900;
+    position:absolute;
+    top:50px;
+    left:200px;
+}
+
+#jpg1 {
+    position:absolute;
+    top:130px;
+    left:200px;
+}
+
+#jpg2 {
+    position:absolute;
+    top:850px;
+    left:200px;
+}
+
+#jpg3 {
+    position:absolute;
+    top:1850px;
+    left:200px;
+}
+
+#jpg4 {
+    position:absolute;
+    top:2250px;
+    left:200px;
+}
+
+#p1 {
+    color:rgb(157, 1, 1);
+    font-weight: 900;
+    position:absolute;
+    top:550px;
+    left:200px;
+}
+#p2{
+    color:rgb(157, 1, 1);
+    font-weight: 900;
+    position:absolute;
+    top:1000px;
+    left:200px;
+}
+#p3{
+    color:rgb(157, 1, 1);
+    font-weight: 900;
+    position:absolute;
+    top:2000px;
+    left:200px;
+}

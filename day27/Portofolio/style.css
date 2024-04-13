@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&family=Rubik+Doodle+Shadow&display=swap');
+
+html {
+    background-color: #04202c;
+    font-family: Roboto;
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav {
+    background-color: #304044;
+}
+nav ul {
+    display: flex;
+    justify-content: right;
+}
+nav ul li {
+    margin: 0 20px;
+    font-size: 20px;
+}
+nav ul li a  {
+    color: #c9d1c8;
+    text-decoration: none;
+    padding: 20px 15px;
+    display: inline-block;
+}
+nav ul li a:hover {
+    background-color: #304044;
+}
+
+#h1-1 {
+    position: absolute;
+    top: -0.5%;
+    left: 3%;
+}
+#h1-2 {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    font-size: 400%;
+}
+#h2-1 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+#h2-2{
+    position: absolute;
+    top: 95%;
+    left: 45%;
+    font-size: 50px;
+}
+#h2-3{
+    position: absolute;
+    top: 195%;
+    left: 30%;
+    font-size: 50px;
+}
+#h3-1 {
+    position: absolute;
+    top: 225%;
+    left: 17%;
+}
+#h3-2 {
+    position: absolute;
+    top: 239%;
+    left: 17%;
+}
+#h4-1 {
+    position: absolute;
+    top: 110%;
+    left: 45%;
+}
+#p-1 {
+    position:absolute;
+    left: 38.5%
+}
+#img-1 {
+    height: 70%;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    border-radius: 10px;
+}
+#home {
+    width: auto;
+    height: 500px;
+}
+#about {
+    width: auto;
+    height: 600px;
+}
+#contact {
+    width: auto;
+    height: 600px;
+}
+#call {
+    height: 10%;
+    border-radius: 20px;
+    position: absolute;
+    top: 225%;
+    left: 12%;
+}
+#gmail{
+    height: 8%;
+    border-radius: 20px;
+    position: absolute;
+    top: 240%;
+    left: 11.5%;
+}
+#instagram {
+    height: 10%;
+    border-radius: 20px;
+    position: absolute;
+    top: 260%;
+    left: 11.5%;
+}
+#facebook {
+    height: 10%;
+    border-radius: 20px;
+    position: absolute;
+    top: 260%;
+    left: 17.5%;
+}
+#github {
+    height: 10.5%;
+    border-radius: 20px;
+    position: absolute;
+    top: 260%;
+    left: 23.5%;
+}
+#input-1 {
+    position: absolute;
+    top: 225%;
+    left: 50%;
+    height: 7%;
+    width: 30%;
+    font-size: 150%;
+    border-radius: 10px;
+}
+#input-2 {
+    position: absolute;
+    top: 235%;
+    left: 50%;
+    height: 7%;
+    width: 30%;
+    font-size: 150%;
+    border-radius: 10px;
+}
+#input-3 {
+    position: absolute;
+    top: 245%;
+    left: 50%;
+    height: 7%;
+    width: 30%;
+    font-size: 150%;
+    border-radius: 10px;
+}
+#div-2 {
+    width: auto;
+    height: 50px;
+    background-color: #304044;
+}
+
+.submit-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    position: absolute;
+    top: 257%;
+    left: 61%;
+}
+.color-T {
+    color: #c9d1c8;
+}
+.color-I {
+    color: green;
+}

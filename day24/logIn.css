@@ -1,0 +1,66 @@
+html {
+    background-color: #04202c;
+}
+a {
+    position: absolute;
+    top: 47%;
+    left:57%;
+    color: #001B79;
+}
+
+.Log-In {
+    background-color: #304040;
+    width: 30%;
+    height: 40%;
+    position:absolute;
+    top: 15%;
+    left: 35%;
+    border-radius: 5%;
+}
+.input {
+    color: #5b7065;
+}
+.t-color {
+    color: #c9d1c8;
+}
+.submit-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 47% 38.5%;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#input-1 {
+    position: absolute;
+    top: 33%;
+    left: 14%;
+    width: 70%;
+    height: 7%;
+}
+#input-2 {
+    position: absolute;
+    top: 57%;
+    left: 14%;
+    width: 70%;
+    height: 7%;
+}
+#h1-1 {
+    position: absolute;
+    top: -3%;
+    left: 35%;
+}
+#h3-1 {
+    position: absolute;
+    top: 15%;
+    left: 14%;
+}
+#h3-2 {
+    position: absolute;
+    top: 39%;
+    left: 14%;
+}
+

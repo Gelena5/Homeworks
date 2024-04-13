@@ -1,0 +1,111 @@
+body {
+    background-image:url(./photos/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bmw_h1 {
+    position:absolute;
+    left:50%;
+}
+#bmw_history {
+    position:absolute;
+    left:50%;
+    top: 500px;
+}
+#_1 {
+    position:absolute;
+    top:50px;
+}
+#_2 {
+    position:absolute;
+    top:450px;
+}
+#_3 {
+    position:absolute;
+    top:1530px;
+}
+#_4 {
+    position:absolute;
+    top:1550px;
+    left:350px;
+}
+#_5 {
+    position:absolute;
+    top:1550px;
+    left:750px;
+}
+#_6 {
+    position:absolute;
+    top:1550px;
+    left:1150px;
+}
+#_7 {
+    position:absolute;
+    top:1820px;
+}
+#bmw-jpg-1 {
+    height:300px;
+    position:absolute;
+    top:150px;
+    left:800px;
+}
+#bmw-paragraph-1 {
+    position:absolute;
+    top:130px;
+    left:30px;
+}
+#bmw-paragraph-2 {
+    position:absolute;
+    top:550px;
+
+}
+#dixi {
+    position:absolute;
+    top:1600px;
+    left:40px;
+}
+#dixi-fr {
+    position:absolute;
+    top:1800px;
+    background-color:black;
+}
+#BMW-M4-GTS{
+    position:absolute;
+    top:1600px;
+    left:400px;
+    height:33%;
+}
+#BMW-M4-GTS-fs {
+    position:absolute;
+    top:1800px;
+    left:410px;
+    background-color:black;
+}
+#Nazca-M12 {
+    position:absolute;
+    top:1600px;
+    left:800px;
+    height:32.5%;
+}
+#Nazca-M12-ex {
+    position:absolute;
+    top:1800px;
+    left:795px;
+    background-color:black;
+}
+#ceo {
+    position:absolute;
+    top:1600px;
+    left:90%;
+}
+
+.color {
+    color:rgb(0, 0, 255);
+    
+}
+.gray {
+    color:gray;
+}

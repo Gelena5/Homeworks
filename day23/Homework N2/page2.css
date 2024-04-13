@@ -1,0 +1,120 @@
+body {
+    background-image: url(../photos/background\ 2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.wrapper {
+    width: 800px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 10px;
+    padding: 20% 0%;
+    position:absolute;
+    top:18%;
+}
+
+.color {
+    color: rgb(0, 217, 255);
+}
+
+#h1-1 {
+    position: absolute;
+    top:5%;
+    left:45%;
+}
+
+#h2-1 {
+    position: absolute;
+    top:15%;
+    left:25%;
+}
+#h2-2 {
+    position: absolute;
+    top: 47%;
+    left: 65%;
+}
+#h2-3 {
+    position:absolute;
+    top: 100%;
+    left: 80%;
+}
+
+#h3-1 {
+    position: absolute;
+    top: 70%;
+    left: 80%;
+}
+
+#p-1 {
+    position: absolute;
+    top: 22%;
+    left: 5%;
+}
+
+#img-1 {
+    height: 30%;
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
+#img-2 {
+    height: 30%;
+    position: absolute;
+    top: 60%;
+    left: 65%;
+}
+#img-3 {
+    height: 40%;
+    position: absolute;
+    top: 90%;
+    left: 65%;
+}
+
+#button-1 {
+    position:absolute;
+    top: 135%;
+    left: 43%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to right, black, rgb(0, 217, 255));
+    color: white;
+    font-size: 16px;
+}
+#button-2 {
+    position:absolute;
+    top: 135%;
+    left: 47%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to right, black, rgb(0, 217, 255));
+    color: white;
+    font-size: 16px;
+}
+#button-3 {
+    position: absolute;
+    top: 135%;
+    left: 51%;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to right, black, rgb(0, 217, 255));
+    color: white;
+    font-size: 16px;
+}

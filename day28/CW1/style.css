@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Mountains+of+Christmas&family=Roboto&family=Rubik+Doodle+Shadow&display=swap');
+
+body {
+    font-family: Mountains of Christmas;
+    background-image: url(../picture/background\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#h1-1 {
+    font-size: 50px;
+    position: fixed;
+    top: 8%;
+    left: 42%;
+}
+#p-1 {
+    font-weight: 700;
+    position: fixed;
+    top: 25%;
+    left: 5%;
+}
+#img-1 {
+    height: 72%;
+    position: fixed;
+    top: 25%;
+    left:65%;
+}
+
+.wrapper {
+    width: 40%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 10px;
+    padding: 15% 0%;
+    position:absolute;
+    top:23%;
+    left: 2%;
+}
+.color-1 {
+    color: #009900;
+}

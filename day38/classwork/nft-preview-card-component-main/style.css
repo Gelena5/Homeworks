@@ -1,0 +1,119 @@
+body{
+    font-family: "Outfit", sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.proud-of-this-css {
+    color: papayawhip;
+}
+
+.div-1 img {
+    width: 21rem;
+    border-radius: 0.5rem;
+}
+.div-5 img {
+    width: 1.5rem;
+    border: solid 1px #bebebe;
+    border-radius: 50%;
+}
+
+.div-2, .div-3, .div-4, .div-5, #p-p {
+    padding-left: 1.8rem;
+}
+
+.main-div {
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    width: 24rem;
+}
+
+.main-div .div-1 {
+    position: relative;
+}
+.main-div .div-1 div img{
+    height: 3rem;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.main-div .div-1 div {
+    position: absolute;
+    top: 0;
+    background-color: hsl(178, 100%, 50%, 65%);
+    width: 88%;
+    height: 100%;
+    border-radius: 0.5rem;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.main-div .div-1 div:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.div-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.div-2 {
+    color: hsl(215, 51%, 70%); 
+}
+.div-2 h2:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.div-3 {
+    color: hsl(215, 51%, 70%);
+    font-size: 1.1rem;
+}
+
+.div-4 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1.8rem;
+}
+.div-4 #p-1 {
+    color: hsl(178, 100%, 50%);
+}
+.div-4 #p-2, #p-p {
+    color: hsl(215, 51%, 70%);
+}
+#p-p {
+    margin-top: -1rem;
+}
+
+.div-5 {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+.div-5 p {
+    margin-left: 0.5rem;
+    color: hsl(215, 51%, 70%);
+}
+.div-5 a {
+    color: hsl(215, 51%, 70%);
+    text-decoration: none;
+}
+.div-5 a:hover {
+    color: hsl(178, 100%, 50%);
+}

@@ -1,0 +1,57 @@
+body {
+    background-image: url(../photos/background\ 5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.image-container img {
+    transition: transform 0.3s ease;
+}
+  
+.image-container:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.image-container {
+    display: inline;
+}
+.container img {
+    transition: transform 0.3s ease;
+}
+  
+.container:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.container {
+    display: inline;
+}
+.color {
+    color: red;
+}
+
+#BMW {
+    position:absolute;
+    top: 72%;
+    left: 21%;
+}
+#M4 {
+    height: 300px;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+
+#MK4 {
+    height: 300px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+#supra {
+    position:absolute;
+    top: 72%;
+    left: 62%;
+}

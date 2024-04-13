@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+
+body {
+    background-image: url(./picture/christmas1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: red;
+    font-family: Mountains of Christmas;
+    font-style: italic;
+    
+    position: relative;
+    top: 65;
+    left: 560px;
+}
+h3 {
+    color: rgb(253, 58, 58);
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Mountains of Christmas;
+    font-style: italic;
+
+    position: relative;
+    top: 100;
+    left: 300px;
+}
+p {
+    color: rgb(255, 39, 39);
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Mountains of Christmas;
+    font-style: italic;
+
+    text-decoration-line: underline;
+    text-decoration-color: green;
+    text-decoration-style: dashed;
+
+    position: relative;
+    top: 500;
+    left: 700px;
+}
+#christmas {
+    position: relative;
+    top: 500;
+    left: 700px;
+}
