@@ -35,7 +35,8 @@ function sumBetween(start, end) {
     let sum = 0;
     
     if (start > end) {
-        [start, end] = [end, start];
+        start = end;
+        end =start;
     }
     
     for (let i = start; i <= end; i++) {
