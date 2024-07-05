@@ -1,19 +1,19 @@
 // დავალება 1
-const arrayConstructor = new Array('nika', 'saba', 'lika');
+const arrayConstructor = new Array('nika', 'saba', 'lika');// მასივის შექმნის პირველი გზა
 
-const arrayLiteral = ['lasha', 'gio', 'andro'];
-
-console.log(arrayConstructor);
-console.log(arrayLiteral);
-
-arrayConstructor.push('BMW');
-arrayLiteral.push('Mercedes');
+const arrayLiteral = ['lasha', 'gio', 'andro'];// მასივის შექმნის მეორე გზა
 
 console.log(arrayConstructor);
 console.log(arrayLiteral);
 
-let removedFromConstructor = arrayConstructor.pop();
-let removedFromLiteral = arrayLiteral.pop();
+arrayConstructor.push('BMW');// დამატება
+arrayLiteral.push('Mercedes');// დამატება
+
+console.log(arrayConstructor);
+console.log(arrayLiteral);
+
+let removedFromConstructor = arrayConstructor.pop();// წაშლა
+let removedFromLiteral = arrayLiteral.pop();// წაშლა
 
 console.log(arrayConstructor);
 console.log(arrayLiteral);
@@ -34,4 +34,11 @@ for (let i = 0; i < num.length; i++) {
 console.log("რიცხვების ჯამია:", bowl);
 
 
-// დავალება 3
+
+
+const names1 = ['nika', 'luka', 'gio']
+const names2 = ['ani', 'lile', 'mari']
+
+const names3 = names1.concat(names2)// კონსოლში დაიბეჭდოს როგორც მასივი
+
+console.log(names3);
